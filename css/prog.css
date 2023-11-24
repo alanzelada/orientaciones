@@ -12,7 +12,7 @@
 }
 
 .izquierda{
-    background-image: url(/img/Rectangle\ 2.png);
+    background-image: url('img/');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
