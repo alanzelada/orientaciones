@@ -12,7 +12,7 @@
 }
 
 .izquierda{
-    background-image: url('../img/img-prog.png');
+    background-image: url('../img/img-prog.png ');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,6 +23,67 @@
 }
 
 .derecha{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding: 40px;
     width: 70%;
+}
+
+.derecha h1{
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+
+h1,h2{
+    margin: 20px 0px;
+}
+
+table{
+    background-color: rgb(41, 41, 41);
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin: auto;
+    width: 80%;
+}
+
+table a{
+    color: rgb(255, 255, 255);
+}
+
+td{
+    border-bottom: 2px solid #ffffff;
+    padding: 5px;
+    color: white;
+}
+
+.anio{
+    text-align: center;
+    font-weight: 800;
+}
+
+
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .izquierda{
+        width: 100%;
+        height: 20vh;
+        top: 0;
+        position: unset;
+    }
+
+    .derecha{
+        width: 100%;
+    }
+
+    .derecha h1{
+        font-size: 2rem;
+    }
 }
