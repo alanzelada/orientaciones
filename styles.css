@@ -44,7 +44,7 @@ p{
 
 
 .orientaciones__orientation:nth-last-of-type(3){
-    background: linear-gradient(90deg, rgba(0,0,0, 0.5) 0%, rgba(0,0,0,0.51) 100%), url('img/Rectangle\ 4.png');
+    background: linear-gradient(90deg, rgba(0,0,0, 0.5) 0%, rgba(0,0,0,0.51) 100%), url('img/img-ado.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ p{
 }
 
 .orientaciones__orientation:nth-last-of-type(2){
-    background:  linear-gradient(90deg, rgba(0,0,0, 0.5) 0%, rgba(0,0,0,0.5) 100%), url('img/Rectangle\ 2.png');
+    background:  linear-gradient(90deg, rgba(0,0,0, 0.5) 0%, rgba(0,0,0,0.5) 100%), url('img/img-prog.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ p{
 
 
 .orientaciones__orientation:nth-last-of-type(1){
-    background:  linear-gradient(90deg, rgba(0,0,0, 0.5) 0%, rgba(0,0,0,0.51) 100%), url('img/Rectangle\ 3.png');
+    background:  linear-gradient(90deg, rgba(0,0,0, 0.5) 0%, rgba(0,0,0,0.51) 100%), url('img/img-ipp.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
